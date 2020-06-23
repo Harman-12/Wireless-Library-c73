@@ -73,7 +73,7 @@ export default class TransactionScreen extends React.Component {
         scannedBookId: ''
       })
     }
-
+      
     initiateBookReturn = async()=>{
       //add a transaction
       db.collection("transactions").add({
